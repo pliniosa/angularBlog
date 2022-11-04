@@ -1,0 +1,12 @@
+.container__titulo{
+  color: white;
+}
+.container__titulo > h1{
+  margin: 15px 0;
+  font-size: 180px;
+  display: flex;
+  justify-content: center;
+}
+.container__titulo > hr{
+  margin: 20px auto 5px auto;
+}

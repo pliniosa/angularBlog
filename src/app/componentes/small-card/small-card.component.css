@@ -1,0 +1,23 @@
+.container__small-card{
+  width: 700px;
+  cursor: pointer;
+}
+.container__small-card-content{
+  display: flex;
+  flex-direction: row;
+}
+
+.img__small-card > img{
+  width: 150px;
+  min-width: 150px;
+  margin-right: 20px;
+}
+.title__small-card{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container__line{
+  color: gray;
+  margin-bottom: 4px;
+}
