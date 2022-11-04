@@ -1,15 +1,15 @@
-<div class="container__big-card">
-  <div class="img__big-card">
-    <img src="https://vidafullstack.com.br/wp-content/uploads/2021/07/versao-12-angular-980x487.png" alt="" srcset="">
-  </div>
-  <div class="title__big-card">
-    <h1>Novidades no Angular V14</h1>
-  </div>
-  <div class="descricao__big-card">
-    <p>
-      Finalmente a Angular V14 chegou, e o meu hype tá a mil, porém vamos guardar essa ansiedade e entender o que
-      realmente foi lançado.
-      Mas o motivo da ansiedade é que algumas dessas novas features estavam sendo muito aguardadas pela comunidade.
-    </p>
-  </div>
+<div class="container__big-card" (click)="toLink()">
+  <a href="{{link}}">
+    <div class="img__big-card">
+      <img src="{{imagem}}" alt="" srcset="">
+    </div>
+    <div class="title__big-card">
+      <h1>{{cardTitle}}</h1>
+    </div>
+    <div class="descricao__big-card">
+      <p>
+        {{cardDescription}}
+      </p>
+    </div>
+  </a>
 </div>
