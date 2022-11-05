@@ -1,5 +1,5 @@
 <div class="container__big-card" (click)="toLink()">
-  <a href="{{link}}">
+  <a [routerLink]="['content', id]">
     <div class="img__big-card">
       <img src="{{imagem}}" alt="" srcset="">
     </div>

@@ -1,5 +1,5 @@
 <div class="container__small-card">
-  <a href="{{link}}">
+  <a [routerLink]="['content', id]">
     <div class="container__small-card-content">
       <div class="img__small-card">
         <img src="{{imagem}}" alt="" srcset="">
@@ -8,8 +8,8 @@
         <h1>{{cardTitle}}</h1>
       </div>
     </div>
+    <div class="container__line">
+      <hr>
+    </div>
   </a>
-  <div class="container__line">
-    <hr>
-  </div>
 </div>

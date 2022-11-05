@@ -14,7 +14,10 @@ export class BigCardComponent implements OnInit {
   @Input()
   cardDescription: string = ""
   @Input()
-  link: string = ""
+  id: string = "0"
+
+  link: string = "https://vidafullstack.com.br/angular/novidades-no-angular-v14/"
+
   constructor() { }
 
   ngOnInit(): void {

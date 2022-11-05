@@ -9,6 +9,7 @@
 
 .img__small-card > img{
   width: 230px;
+  height: 120px;
   margin-right: 20px;
 }
 .title__small-card{
