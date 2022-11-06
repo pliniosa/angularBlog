@@ -1,6 +1,9 @@
 .container__menu > ul{
+  font-size: 20px;
   display: flex;
   flex-direction: row;
+  align-items: flex-end;
+  justify-content: end;
 }
 .container__menu > ul > li{
   margin-right: 20px;

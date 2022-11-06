@@ -9,6 +9,7 @@ import { BigCardComponent } from './componentes/big-card/big-card.component';
 import { SmallCardComponent } from './componentes/small-card/small-card.component';
 import { HomeComponent } from './pages/home/home.component';
 import { ContentComponent } from './pages/content/content.component';
+import { CardsComponent } from './componentes/cards/cards.component';
 
 @NgModule({
   declarations: [
@@ -18,11 +19,12 @@ import { ContentComponent } from './pages/content/content.component';
     BigCardComponent,
     SmallCardComponent,
     HomeComponent,
-    ContentComponent
+    ContentComponent,
+    CardsComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

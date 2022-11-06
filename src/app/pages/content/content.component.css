@@ -23,6 +23,7 @@
 .content__description > p{
   width: 190vh;
   color: gray;
+  text-align: center;
 }
 br{
   margin-top: 15px;
